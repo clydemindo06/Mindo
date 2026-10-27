@@ -1,0 +1,1593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .location {
+    border: 1px solid white;
+    border-radius: 50px; 
+}
+ .home {
+    border: 1px solid white;
+    border-radius: 50px; 
+} .services {
+    border: 1px solid white;
+    border-radius: 50px; 
+} .works {
+    border: 1px solid white;
+    border-radius: 50px; 
+} .team {
+    border: 1px solid white;
+    border-radius: 50px; 
+}
+ .about {
+    border: 1px solid white;
+    border-radius: 50px; 
+} .carrier {
+    border: 1px solid white;
+    border-radius: 50px; 
+}
+
+/* Style for the navigation bar */
+.navbar {
+    padding: 22px 0px;
+    background-color:transparent !important;
+    border-bottom: none !important;
+}
+ .navbar.secondary {
+    background-color: #34495e !important;
+    transition: all 0.2s ease-in;
+}
+
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover {
+    color: deepskyblue !important;
+  
+}
+.navbar-toggle {
+    border: 1px solid white !important;
+    background-color: #34495e !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle:hover {
+    background-color: deepskyblue !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle .navbar-collapse {
+    border-color: transparent !important;
+}
+
+/* end for navigation */
+
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+    position: relative;
+}
+   
+.slider-content{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.icons,
+.fa{
+    color: white;
+    font-size: 30px;
+    size: 20px;
+    margin-right: 1px;
+    transition: all 0.5s ease-in; 
+}
+.social-networks .fa-facebook,
+.social-networks .fa-twitter,
+.social-networks .fa-linkedin,
+.social-networks .fa-reddit,
+.social-networks .fa-cog,
+.social-networks #w {
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;   
+    text-align: center;  
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks .fa-facebook:hover,
+.social-networks .fa-twitter:hover,
+.social-networks .fa-linkedin:hover,
+.social-networks .fa-reddit:hover,
+.social-networks .fa-cog:hover,
+.social-networks #w:hover {
+    background: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+}
+
+.cta-div{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.btn1{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border:2px solid white;
+    border-top-left-radius: 15px;
+}
+/* Animated gradient on button hover */
+@keyframes gradientMove{
+    0%{background-position: 0% 50%;}
+    100%{background-position: 100% 50%;}
+}
+
+.btn1:hover{
+    background: linear-gradient(90deg, deepskyblue, #34495e, deepskyblue);
+    background-size: 200% auto;
+    border-color: deepskyblue;
+    color: white;
+    text-decoration: none;
+    animation: gradientMove 2s linear infinite;
+}
+
+.btn2{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border:2px solid white;
+    border-bottom-right-radius: 15px;
+}
+
+.btn2:hover{
+    background-color: rgb(238, 158, 8);
+    border: 2px solid orange;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+}
+body{
+   background-color: rgb(0, 0, 16);
+}
+
+/* text animation */
+ .slider .text, .slider .typed-cursor
+{
+   display: inline;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+
+.primary
+{
+   color: orangered;
+}
+
+.typed-cursor
+{
+ opacity: 1;
+ animation: blink 0.7s infinite;
+ -webkit-animation:blink 0.7s infinite;
+ -moz-animation:blink 0.7s infinite;
+   
+   
+}
+
+@keyframes blink
+{
+   0%
+   {
+       opacity: 1;
+   }
+    
+   50%
+   {
+       opacity: 0;
+   }
+   
+   100%
+   {
+       opacity: 1;
+   }    
+}
+
+@-webkit-keyframes blink
+{
+   0%
+   {
+       opacity: 1;
+   }
+   
+   50%
+   {
+       opacity: 0;
+   }
+   
+   100%
+   {
+       opacity: 1;
+   }
+}
+@-moz-keyframes blink
+{
+   0%
+   {
+       opacity: 1;
+   }
+   
+   
+   50%
+   {
+       opacity: 0;
+   }
+   
+   100%
+   {
+       opacity: 1;
+   }
+
+}  
+
+/*=======================================
+           Slider Ends
+=========================================*/
+
+/* =========================================
+   Services Styles
+========================================= */
+
+
+/* -----------------------------------------
+   Services Area
+----------------------------------------- */
+
+.service-area {
+    margin-top: 30px;
+    background-color: #ffffff !important;
+    color: #333333;
+    padding: 60px 0;
+}
+
+
+/* -----------------------------------------
+   Services Title
+----------------------------------------- */
+
+.service-area .section-title h2 {
+    color: #333333 !important;
+}
+
+.service-area .section-title p {
+    color: #666666 !important;
+}
+
+
+/* -----------------------------------------
+   Services Paragraph
+----------------------------------------- */
+
+.service-area p {
+    margin-bottom: -5px;
+}
+
+
+/* -----------------------------------------
+   Service Wrapper
+----------------------------------------- */
+
+.service-wrap {
+    position: relative;
+    z-index: 9;
+
+    overflow: hidden;
+
+    margin-top: 20px;
+    padding: 25px 35px;
+
+    background-color: #ffffff;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.5s ease 0s;
+}
+
+
+/* -----------------------------------------
+   Hover Background - Before & After
+----------------------------------------- */
+
+.service-wrap::before,
+.service-wrap::after {
+    content: "";
+
+    position: absolute;
+
+    width: 120%;
+    height: 300%;
+
+    z-index: -9;
+
+    opacity: 0;
+
+    background: #34495e;
+
+    transform: rotate(45deg);
+
+    transition: all 0.5s;
+}
+
+
+/* -----------------------------------------
+   Before Element
+----------------------------------------- */
+
+.service-wrap::before {
+    top: -37px;
+    left: 100%;
+}
+
+
+/* -----------------------------------------
+   Before Hover
+----------------------------------------- */
+
+.service-wrap:hover::before {
+    left: -27px;
+    opacity: 1;
+}
+
+
+/* -----------------------------------------
+   After Element
+----------------------------------------- */
+
+.service-wrap::after {
+    right: 100%;
+    bottom: -37px;
+}
+
+
+/* -----------------------------------------
+   After Hover
+----------------------------------------- */
+
+.service-wrap:hover::after {
+    right: -27px;
+    opacity: 1;
+}
+
+
+/* -----------------------------------------
+   Service Hover Text
+----------------------------------------- */
+
+.service-wrap:hover {
+    color: white;
+}
+
+
+/* -----------------------------------------
+   Service Heading
+----------------------------------------- */
+
+.service-wrap h3 {
+    position: relative;
+
+    padding-bottom: 15px;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    color: #333333;
+}
+
+
+/* -----------------------------------------
+   Heading Hover Color
+----------------------------------------- */
+
+.service-wrap:hover h3 {
+    color: white;
+}
+
+
+/* -----------------------------------------
+   Heading Underline
+----------------------------------------- */
+
+.service-wrap h3::after {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 0;
+
+    width: 30px;
+    height: 2px;
+
+    background-color: #333;
+
+    transform: translateX(-50%);
+
+    transition: all 0.5s;
+}
+
+
+/* -----------------------------------------
+   Heading Underline Hover
+----------------------------------------- */
+
+.service-wrap:hover h3::after {
+    background-color: white;
+}
+
+
+/* -----------------------------------------
+   Service Icon
+----------------------------------------- */
+
+.service-icon i {
+    display: inline-block;
+
+    width: 45px;
+    height: 45px;
+
+    line-height: 41px;
+
+    font-size: 22px;
+
+    background-color: #34495e;
+    border: 2px solid #34495e;
+    border-radius: 50%;
+
+    color: white;
+
+    margin-bottom: 20px;
+
+    transition: all 0.5s ease;
+}
+
+
+/* Icon Hover */
+.service-wrap:hover .service-icon i {
+    background-color: white;
+    border-color: white;
+    color: #34495e;
+
+    transform: rotate(360deg);
+}
+
+
+/* -----------------------------------------
+   Rotate Icon on Hover
+----------------------------------------- */
+
+.service-wrap:hover .service-icon i {
+    transform: rotate(360deg);
+}
+
+
+/* -----------------------------------------
+   Service Paragraph
+----------------------------------------- */
+
+.service-wrap p {
+    font-size: 14px;
+
+    margin-bottom: 0;
+
+    color: #666666;
+}
+
+
+/* -----------------------------------------
+   Service Hover Paragraph
+----------------------------------------- */
+
+.service-wrap:hover p {
+    color: white;
+}
+.service-wrap h3::after {
+    display: none !important;
+}
+.service-area {
+    margin-top: 0 !important;
+    border-top: none !important;
+}
+/* =========================================
+   Services Styles End
+========================================= */
+/* =============================================
+           WORK / GALLERY
+============================================= */
+
+.work {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.work .container,
+.work .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.work .row {
+    margin: 0;
+    padding: 0;
+}
+
+.row.no-gutters {
+    margin: 0;
+}
+
+.row.no-gutters [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.img-wrapper a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.05);
+    cursor: zoom-in;
+}
+/*================================
+        Team styles
+=================================*/
+
+/* Section heading */
+.teams {
+    padding: 40px 0 10px 0;
+    color: #333;
+    background-color: rgb(15, 4, 41);
+}
+
+.teams .container
+{
+    text-align: center;
+}
+
+.teams h2
+{
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.teams h2::after
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 12px auto 0;
+}
+
+.teams p
+{
+    color: #b0b8c1;
+}
+
+/* Team member card */
+.team-member
+{
+    margin: 50px 15px 0 15px;
+}
+
+/* Consistent photo size for all members */
+.team-member img
+{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(249, 246, 246, 0.5);
+    transition: all 0.5s ease;
+}
+
+.team-member:hover img
+{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(52, 198, 211, 0.35);
+}
+
+.team-member-info
+{
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name
+{
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation
+{
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.social-list
+{
+    padding-left: 0;
+}
+
+.social-list li
+{
+    list-style: none;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+/* Circular team social icons (scoped so they don't
+   collide with the slider's social-network styles) */
+.social-list .social-icon
+{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid #64707b;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+
+.social-list i
+{
+    font-size: 15px;
+}
+
+.icon-gray i
+{
+    color: #64707b;
+}
+
+.social-list .social-icon:hover
+{
+    background-color: #34c6d3;
+    border-color: #34c6d3;
+}
+
+.social-list .social-icon:hover i
+{
+    color: white;
+}
+.teams h2::after {
+    content: none !important;
+    display: none !important;
+}
+/*=========================
+    Testimonials styles
+=========================*/
+
+.testimonials {
+    background-image: url(../img/reviews-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -68px;
+}
+
+.testimonials h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.testimonials h4 {
+    font-style: italic;
+    margin-top: 15px;
+    color: #34c6d3;
+}
+
+.border-bottom {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.carousel-inner p {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+.testimonials {
+    background-image: linear-gradient(rgba(15, 4, 41, 0.85), rgba(15, 4, 41, 0.85)), url(../img/dagat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+/* =========================================
+   FAQ Section Styles
+========================================= */
+
+.faq-area {
+    padding: 80px 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* FAQ Headings */
+.faq-area h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.faq-area p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+/* Accordion Panel Styling */
+#accordion .panel {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+#accordion .panel-heading {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#accordion .panel-title a {
+    display: block;
+    padding: 18px 20px 18px 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #2c3e50;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Icon for collapsed state (Left side) */
+#accordion .panel-title a::before {
+    content: "\f067";
+    font-family: FontAwesome;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+    color: #2c3e50;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+/* Icon for expanded state */
+#accordion .panel-title a[aria-expanded="true"]::before {
+    content: "\f068";
+    background: white;
+    color: #2c3e50;
+    transform: translateY(-50%) rotate(360deg);
+}
+
+#accordion .panel-title a:hover {
+    background: #34495e;
+}
+
+/* Panel Body Styling */
+#accordion .panel-body {
+    padding: 20px 30px 20px 70px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    color: #555;
+    line-height: 26px;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Panel heading link */
+#accordion .panel-heading a {
+    text-decoration: none !important;
+}
+
+#accordion .panel-heading a:focus {
+    outline: none;
+}
+
+/* =========================================
+   Phone Mockup Styles
+========================================= */
+.phone-mockup {
+    width: 280px;
+    height: 550px;
+    background: white;
+    border: 12px solid #e0e0e0;
+    border-radius: 40px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    animation: floatPhone 4s ease-in-out infinite;
+}
+
+/* Speaker */
+.phone-mockup::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 5px;
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+/* Home Button */
+.phone-mockup::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+/* Screen */
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    border-radius: 28px;
+}
+
+@keyframes floatPhone {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .phone-mockup {
+        margin-top: 50px;
+        width: 220px;
+        height: 430px;
+    }
+    #accordion .panel-title a {
+        font-size: 16px;
+        padding: 15px 15px 15px 60px;
+    }
+    #accordion .panel-title a::before {
+        left: 15px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+}
+/* ============ END FAQ STYLE ============ */
+
+/* =========================================
+   Video Section Styles
+========================================= */
+.video-area {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/video.jpg);
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+}
+
+/* Play Button Container - Centered Image */
+.play {
+    background: #fff url(../img/play-btn.png) no-repeat center center;
+    background-size: 45%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px rgba(0,167,221,0.5);
+    -webkit-box-shadow: 0px 0px 20px rgba(0,167,221,0.5);
+    -moz-box-shadow: 0px 0px 20px rgba(0,167,221,0.5);
+    -o-box-shadow: 0px 0px 20px rgba(0,167,221,0.5);
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    position: relative;
+    z-index: 2;
+}
+
+.play:hover {
+    box-shadow: 0px 0px 20px rgba(0, 84, 111, 0.5);
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 84, 111, 0.5);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 84, 111, 0.5);
+    -o-box-shadow: 0px 0px 20px rgba(0, 84, 111, 0.5);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .video-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-attachment: scroll;
+    }
+    .play {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+/* ============ END VIDEO STYLE ============ */
+
+/* =========================================
+   RECENT BLOG Section Styles
+========================================= */
+.latest-news-area {
+    margin-top: 0;
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.latest-news-area .section-title h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.latest-news-area .section-title p {
+    color: #444444;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.latest-news-wrap {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.news-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.news-img::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all .3s;
+    z-index: 1;
+}
+
+.latest-news-wrap:hover .news-img::before {
+    opacity: .5;
+    transform: scale(1);
+}
+
+.date {
+    background: #f89406;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    padding: 15px;
+    z-index: 2;
+}
+
+.date span {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.news-content {
+    padding: 20px;
+    margin-left: 0;
+    background-color: #ffffff;
+}
+
+.news-content i {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.news-content .fa-facebook {
+    color: #3b5995;
+}
+
+.news-content .fa-twitter {
+    color: #55acee;
+}
+
+.news-content .fa-linkedin {
+    color: #0077b5;
+}
+
+.news-content .fa-youtube {
+    color: red;
+}
+
+.news-content .fa-whatsapp {
+    color: #25d366;
+}
+
+.news-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.news-content a {
+    font-size: 14px;
+    background-color: #f89406;
+    padding: 10px 20px;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.news-content a:hover {
+    font-size: 14px;
+    border: 1px solid #f89406;
+    background-color: transparent;
+    color: #f89406;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .latest-news-area {
+        padding: 60px 0;
+    }
+}
+/* ============ END RECENT BLOG STYLE ============ */
+
+/* =========================================
+   Counter stat style
+========================================= */
+.stat
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/b.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat .content-box {
+    width: 100%;
+    display: block;
+}
+
+.stat .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.stat .row {
+    margin: 0;
+}
+
+.stat i
+{
+    font-size: 85px;
+}
+
+.stat-items h2
+{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+.stat p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* =========================================
+   Counter stat style ends
+========================================= */
+
+/* =========================================
+   Contact area style starts
+   (PURPLE BACKGROUND)
+========================================= */
+.contact-area {
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #3d2560;   /* Deep purple */
+    width: 100%;
+}
+
+.contact-area .section-heading h2 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-area .sub-heading p {
+    color: #e8dcf5;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+    height: 45px;
+    box-shadow: none !important;
+    background-color: #fff;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.contact-form button.btn {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 12px 40px;
+    background-color: #ffffff;
+    color: #3d2560;
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+    transition: all 300ms ease;
+}
+
+.contact-form button.btn:hover {
+    background-color: #f89406;
+    border-color: #f89406;
+    color: #ffffff;
+}
+
+.contact-form button.btn.sent {
+    background: #27ae60;
+    color: #fff;
+    border-color: #27ae60;
+}
+
+.contact-form button.btn.sent::after {
+    content: "\2713";
+    display: inline-block;
+    margin-left: 10px;
+    transform: scale(0.8);
+    animation: pop 400ms ease-out;
+}
+
+@keyframes pop {
+    0% { transform: scale(0.6); opacity: 0; }
+    50% { transform: scale(1.15); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+.form-alert {
+    display: none;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.form-alert.success {
+    background: #2ecc71;
+    color: #fff;
+    border: 1px solid #27ae60;
+}
+
+.form-alert.error {
+    background: #e74c3c;
+    color: #fff;
+    border: 1px solid #c0392b;
+}
+
+.contact-form button[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Info box on the right - a slightly lighter purple */
+.contact-info {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #4a2c6d;   /* Lighter purple */
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-details {
+    margin-bottom: 25px;
+}
+
+.contact-details:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info .fa {
+    color: white;
+    font-size: 26px;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 46px;
+    text-align: center;
+}
+
+.contact-info p {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.contact-social {
+    margin-top: 25px;
+}
+
+.contact-social a {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-social a:hover {
+    color: deepskyblue;
+}
+
+/* Quick contact button */
+.btn-quickly {
+    margin-left: 10px;
+    background: #00a8ff;
+    color: #fff;
+    border-color: #00a8ff;
+}
+.btn-quickly:hover {
+    background: #0087f7;
+    color: #fff;
+}
+
+/* Quick contact modal */
+.modal-contact-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal-contact-wrap .modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.modal-contact-wrap .modal-content {
+    position: relative;
+    background: #fff;
+    padding: 25px;
+    width: 90%;
+    max-width: 480px;
+    border-radius: 4px;
+    z-index: 2001;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+.modal-contact-wrap .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+}
+.modal-contact-wrap h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.modal-open {
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .modal-contact-wrap .modal-content {
+        padding: 20px;
+    }
+}
+/* ============ Contact area style ends ============ */
+
+/* =========================================
+   Map area style starts
+========================================= */
+.maps {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* Teal contact info bar */
+.maps .map-info-bar {
+    background-color: #29b6a4;
+    padding: 45px 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+.maps .map-info-item {
+    padding: 10px 0;
+}
+
+.maps .map-info-item i {
+    display: inline-block;
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 12px; 
+}
+
+.maps .map-info-item p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Google Map wrapper */
+.maps .map-wrapper {
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.maps .map-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: 0;
+    filter: grayscale(0);
+    transition: filter 0.3s ease;
+}
+
+.maps .map-wrapper iframe:hover {
+    filter: grayscale(0);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .maps .map-info-bar {
+        padding: 30px 0;
+    }
+    .maps .map-info-item {
+        margin-bottom: 20px;
+    }
+    .maps .map-wrapper iframe {
+        height: 350px;
+    }
+}
+/* ============ Map area style ends ============ */
+
+/* =========================================
+   LEAVE A MESSAGE Section
+   (PURPLE BACKGROUND)
+========================================= */
+.leave-message-area {
+    background-color: #3d2560;   /* Deep purple */
+    padding: 80px 0 100px 0;
+    width: 100%;
+}
+
+.leave-message-heading h2 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+.leave-message-heading .underline {
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #ffffff;   /* White so it shows on purple */
+    margin: 0 auto 50px auto;
+}
+
+.leave-message-form .form-control {
+    border-radius: 0;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    height: 45px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: #fcfbfd;
+}
+
+.leave-message-form textarea.form-control {
+    height: auto;
+    resize: vertical;
+}
+
+.leave-message-form .btn-submit {
+    background-color: #f2f1f3;
+    border: 2px solid #ffffff;
+    color: #3d2560;
+    font-weight: 700;
+    padding: 12px 40px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.leave-message-form .btn-submit:hover {
+    background-color: #f89406;
+    color: #ffffff;
+    border-color: #f89406;
+}
+
+@media (max-width: 767px) {
+    .leave-message-area {
+        padding: 60px 0 80px 0;
+    }
+    .leave-message-heading h2 {
+        font-size: 22px;
+    }
+}
+/* ============ End Leave A Message ============ */
